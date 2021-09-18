@@ -1,15 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-size: 15px;
   font-family: sans-serif;
   line-height: 1.4;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 /*product*/
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
   background-color: #f7f7f7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 10px;
 }
 
 /*product informatiln*/
@@ -22,6 +35,18 @@ ul {
 h4 {
   text-transform: uppercase;
   font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+ul {
+  margin-left: 30px;
+  line-height: 2;
+}
+
+.shoes {
+  margin-bottom: 5px;
+  margin-top: 0px;
 }
 
 .content {
@@ -36,6 +61,12 @@ ul {
 #main {
   text-transform: uppercase;
   color: #777;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  line-height: 2;
 }
 
 a:link {
@@ -59,11 +90,15 @@ a:active {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
 }
 .addcart:hover {
   background-color: white;
   color: black;
   text-decoration: none;
+  text-align: center;
+  border-top: 4px solid black;
 }
 
 article {
